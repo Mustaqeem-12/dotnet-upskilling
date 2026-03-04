@@ -67,6 +67,16 @@ The focus is on building strong fundamentals in C# and .NET using console applic
 - Follow the instructions displayed in the terminal
 
 ---
+## Day 5 – OOP (Class, Object, Constructor, Encapsulation)
 
+In this task, I practiced basic OOP concepts in C#.
+
+- Created an `Employee` class
+- Created an object of the class
+- Used a constructor to initialize employee details
+- Implemented encapsulation using private fields and getter/setter methods
+- Displayed employee information and updated salary using methods
+- 
+  ---
 ## Note
 This repository is updated daily as part of the learning plan to demonstrate consistency, logical thinking, and practical understanding of .NET concepts.
