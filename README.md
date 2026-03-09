@@ -1,4 +1,4 @@
-# .NET Upskilling – Day 1 to Day 4
+# .NET Upskilling 
 
 This repository contains my daily practice and learning as part of a structured 4-week .NET upskilling plan.  
 The focus is on building strong fundamentals in C# and .NET using console applications.
