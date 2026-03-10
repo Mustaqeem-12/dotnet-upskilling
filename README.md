@@ -76,7 +76,59 @@ In this task, I practiced basic OOP concepts in C#.
 - Used a constructor to initialize employee details
 - Implemented encapsulation using private fields and getter/setter methods
 - Displayed employee information and updated salary using methods
-- 
-  ---
+  
+- ----
+  ## Day 6 – Inheritance, Polymorphism, Interfaces
+
+Practiced OOP concepts in C#.
+
+- Implemented inheritance using base and derived classes
+- Used polymorphism with method overriding
+- Implemented an interface for common functionality
+- Created a small console program to understand OOP concepts
+  
+- -----
+## Day 7 – Student CRUD Console Application
+
+Created a console based Student Management System.
+
+Features:
+- Add Student
+- View Students
+- Update Student
+- Delete Student
+Used List collection to store student records and implemented CRUD operations using a menu.
+
+-----
+## Day 8 – ASP.NET Core MVC Basics
+
+Learned the basic structure of ASP.NET Core MVC.
+
+- Created a controller
+- Added action methods
+- Created a Razor view
+- Displayed a simple page using MVC routing
+
+- ---
+## Day 9 – Middleware & Request Pipeline
+
+Learned how ASP.NET Core handles requests using middleware.
+
+- Implemented a custom middleware
+- Logged request path and response in the console
+- Understood the request pipeline concept
+  
+- ---
+## Day 10 – Routing, Controllers & Actions
+
+Practiced ASP.NET Core MVC routing.
+
+- Created StudentController
+- Added Info action method
+- Created Razor view page
+- Added Student page link in the navbar
+- Accessed page using /Student/Info route
+  
+ ------
 ## Note
 This repository is updated daily as part of the learning plan to demonstrate consistency, logical thinking, and practical understanding of .NET concepts.
