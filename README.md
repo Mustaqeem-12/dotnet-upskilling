@@ -130,5 +130,12 @@ Practiced ASP.NET Core MVC routing.
 - Accessed page using /Student/Info route
   
  ------
+ ## Day 11 – Dependency Injection
+
+-Created StudentService class and registered it in Program.cs.
+-Injected the service into StudentController using Dependency Injection.
+-Displayed message from service in Razor view.
+
+-----
 ## Note
 This repository is updated daily as part of the learning plan to demonstrate consistency, logical thinking, and practical understanding of .NET concepts.
