@@ -137,5 +137,14 @@ Practiced ASP.NET Core MVC routing.
 -Displayed message from service in Razor view.
 
 -----
+## Day 12 - Configuration & Logging
+Learned how to use configuration and logging in ASP.NET Core.
+
+- Stored application settings in appsettings.json
+- Read configuration values using IConfiguration
+- Implemented logging using ILogger
+- Logged application events in the controller
+
+  -------------
 ## Note
 This repository is updated daily as part of the learning plan to demonstrate consistency, logical thinking, and practical understanding of .NET concepts.
