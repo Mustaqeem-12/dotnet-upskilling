@@ -146,5 +146,16 @@ Learned how to use configuration and logging in ASP.NET Core.
 - Logged application events in the controller
 
   -------------
+  ## Day 13 – Model Binding & Validation
+
+Learned how ASP.NET Core handles form data using Model Binding and Validation.
+
+- Created a Student model class
+- Used Data Annotation attributes for validation
+- Built a simple registration form
+- Used model binding to map form data to the Student model
+- Displayed validation messages for incorrect inputs
+
+  ------------
 ## Note
 This repository is updated daily as part of the learning plan to demonstrate consistency, logical thinking, and practical understanding of .NET concepts.
