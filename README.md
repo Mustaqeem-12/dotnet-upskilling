@@ -157,5 +157,16 @@ Learned how ASP.NET Core handles form data using Model Binding and Validation.
 - Displayed validation messages for incorrect inputs
 
   ------------
+  ## Day 14 – Simple Web API
+
+Built a simple Student Web API with three endpoints.
+
+- GET /api/student → get all students
+- GET /api/student/{id} → get student by id
+- POST /api/student → add new student
+
+The API returns JSON responses and demonstrates basic REST API concepts.
+
+--------
 ## Note
 This repository is updated daily as part of the learning plan to demonstrate consistency, logical thinking, and practical understanding of .NET concepts.
