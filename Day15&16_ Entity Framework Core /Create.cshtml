@@ -1,0 +1,40 @@
+@model InventoryApi.Models.Product
+
+<h2 style="text-align:center; margin-top:20px;">➕ Add New Product</h2>
+
+<div style="width:350px; margin:auto; padding:20px; border:1px solid #ddd; border-radius:10px; box-shadow:0px 0px 10px #ccc;">
+
+    <form method="post">
+
+        <div style="margin-bottom:15px;">
+            <label>Product Name</label><br />
+            <input asp-for="ProductName"
+                   style="width:100%; padding:8px; border-radius:5px;" />
+        </div>
+
+        <div style="margin-bottom:15px;">
+            <label>Price</label><br />
+            <input asp-for="Price" type="number"
+                   style="width:100%; padding:8px; border-radius:5px;" />
+        </div>
+
+        <div style="margin-bottom:15px;">
+            <label>Quantity</label><br />
+            <input asp-for="Quantity" type="number"
+                   style="width:100%; padding:8px; border-radius:5px;" />
+        </div>
+
+        <div style="text-align:center;">
+            <button type="submit"
+                    style="padding:10px 20px; background-color:#007bff; color:white; border:none; border-radius:5px;">
+                💾 Save
+            </button>
+        </div>
+
+    </form>
+
+</div>
+
+<div style="text-align:center; margin-top:15px;">
+    <a href="/Product" style="text-decoration:none;">⬅ Back to List</a>
+</div>
