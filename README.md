@@ -167,6 +167,29 @@ Built a simple Student Web API with three endpoints.
 
 The API returns JSON responses and demonstrates basic REST API concepts.
 
---------
+  --------
+###Day 15 – Entity Framework Core Setup
+
+Learned how to connect ASP.NET Core application with database using Entity Framework Core.
+
+Created Product model class
+Created DbContext class
+Added connection string in appsettings.json
+Configured database in Program.cs
+Connected project with Microsoft SQL Server
+
+   ------
+###Day 16 – Inventory CRUD (Create & Read)
+
+Built a simple Inventory Management System using ASP.NET Core MVC.
+
+Created ProductController
+Implemented Create (Add Product)
+Implemented Index (View Products)
+Created Razor Views (Create & Index)
+Stored and retrieved data using Entity Framework Core
+Displayed data from Microsoft SQL Server
+
+---------
 ## Note
 This repository is updated daily as part of the learning plan to demonstrate consistency, logical thinking, and practical understanding of .NET concepts.
