@@ -1,0 +1,15 @@
+using LuLuMall.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace LuLuMall.Data
+{
+    public class ShoppingDbContext : DbContext
+    {
+        public ShoppingDbContext(DbContextOptions<ShoppingDbContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<Product> Products { get; set; }
+    }
+}
