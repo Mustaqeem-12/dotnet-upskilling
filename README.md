@@ -147,7 +147,6 @@ Learned how to use configuration and logging in ASP.NET Core.
 
   -------------
   ## Day 13 – Model Binding & Validation
-
 Learned how ASP.NET Core handles form data using Model Binding and Validation.
 
 - Created a Student model class
@@ -167,7 +166,7 @@ Built a simple Student Web API with three endpoints.
 
 The API returns JSON responses and demonstrates basic REST API concepts.
 
-  --------
+--------
 ###Day 15 – Entity Framework Core Setup
 
 Learned how to connect ASP.NET Core application with database using Entity Framework Core.
@@ -178,7 +177,7 @@ Added connection string in appsettings.json
 Configured database in Program.cs
 Connected project with Microsoft SQL Server
 
-   ------
+------
 ###Day 16 – Inventory CRUD (Create & Read)
 
 Built a simple Inventory Management System using ASP.NET Core MVC.
@@ -191,5 +190,45 @@ Stored and retrieved data using Entity Framework Core
 Displayed data from Microsoft SQL Server
 
 ---------
+###Day 17 – SQL Server Connection & DbContext
+Connected ASP.NET Core application with SQL Server
+Configured connection string in appsettings.json
+Used UseSqlServer in Program.cs
+Created DbContext class
+Added DbSet<Product> for database table
+Understood how Entity Framework Core works
+Ran migrations:
+Add-Migration InitialCreate
+Update-Database
+Database and tables created successfully
+
+-----
+
+###Day 18 – CRUD Operations (MVC Project)
+Built a Product Management system
+Implemented full CRUD operations:
+Create → Add new product
+Read → Display product list
+Update → Edit product details
+Delete → Remove product
+Created Controller with action methods
+Created Razor Views (Create, Index, Edit, Delete)
+Connected form data using Model Binding
+Used Entity Framework for database operations
+Understood complete MVC flow (Controller → View → Model)
+
+-----
+###Day 19 – Service Layer & Repository Pattern
+Learned clean architecture concept
+Separated logic into layers:
+Controller → handles requests
+Service → business logic
+Repository → database operations
+Created Repository Interface and Class
+Created Service Interface and Class
+Implemented Dependency Injection in Program.cs
+Removed direct DbContext usage from Controller
+Improved code structure and maintainability
+Understood real-world project structure
 ## Note
 This repository is updated daily as part of the learning plan to demonstrate consistency, logical thinking, and practical understanding of .NET concepts.
