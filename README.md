@@ -232,3 +232,77 @@ Improved code structure and maintainability
 Understood real-world project structure
 ## Note
 This repository is updated daily as part of the learning plan to demonstrate consistency, logical thinking, and practical understanding of .NET concepts.
+
+-------
+## 🚀 Day 20 – JWT Authentication Setup
+
+Today I worked on implementing JWT Authentication in my project.
+- Added JWT configuration in appsettings.json
+- Created token generation method in AuthController
+- Used SymmetricSecurityKey and SigningCredentials
+- Added claims (username) inside the token
+- Set token expiry time (30 minutes)
+Issue faced:
+- Key size error (key must be greater than 256 bits)
+Fix:
+- Increased JWT secret key length
+
+-------
+## 🔐 Day 21 – Swagger Authorization Setup
+Today I integrated JWT with Swagger UI.
+- Added Swagger security definition (Bearer token)
+- Configured AddSecurityRequirement
+- Enabled Authorize button in Swagger
+Issues faced:
+- OpenApiSecurityScheme, Reference, ParameterLocation errors
+Fix:
+- Installed Swashbuckle.AspNetCore package
+- Added using Microsoft.OpenApi.Models;
+
+---------
+## 🧪 Day 22 – Testing APIs with Token
+Today I tested APIs using Swagger.
+Steps:
+1. Called /api/Auth/login
+2. Got JWT token
+3. Clicked Authorize in Swagger
+4. Entered token
+
+Issue:
+- Entered "Bearer token" caused error
+Fix:
+- Entered only token (Swagger automatically adds Bearer)
+
+Tested:
+- GET Products
+- POST Products
+- PUT / DELETE
+
+-------------
+## ⚠️ Day 23 – Fixing Authorization Errors
+
+Today I fixed authorization issues.
+Error:
+- 401 Unauthorized
+- invalid_token
+Reason:
+- Token format was wrong (Bearer Bearer token)
+Fix:
+- Removed extra "Bearer"
+Also checked:
+- [Authorize] attribute working
+- Middleware order:
+  app.UseAuthentication();
+  app.UseAuthorization();
+  
+## ✅ Final Result
+- JWT Authentication working
+- Swagger Authorization working
+- All APIs secured
+- Token-based access implemented
+
+## 🧠 What I Learned
+- JWT implementation in ASP.NET Core
+- Securing APIs using token
+- Swagger authorization setup
+- Debugging authentication errors
