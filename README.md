@@ -167,7 +167,7 @@ Built a simple Student Web API with three endpoints.
 The API returns JSON responses and demonstrates basic REST API concepts.
 
 --------
-###Day 15 – Entity Framework Core Setup
+### Day 15 – Entity Framework Core Setup
 
 Learned how to connect ASP.NET Core application with database using Entity Framework Core.
 
@@ -178,7 +178,7 @@ Configured database in Program.cs
 Connected project with Microsoft SQL Server
 
 ------
-###Day 16 – Inventory CRUD (Create & Read)
+### Day 16 – Inventory CRUD (Create & Read)
 
 Built a simple Inventory Management System using ASP.NET Core MVC.
 
@@ -190,7 +190,7 @@ Stored and retrieved data using Entity Framework Core
 Displayed data from Microsoft SQL Server
 
 ---------
-###Day 17 – SQL Server Connection & DbContext
+### Day 17 – SQL Server Connection & DbContext
 Connected ASP.NET Core application with SQL Server
 Configured connection string in appsettings.json
 Used UseSqlServer in Program.cs
@@ -204,7 +204,7 @@ Database and tables created successfully
 
 -----
 
-###Day 18 – CRUD Operations (MVC Project)
+### Day 18 – CRUD Operations (MVC Project)
 Built a Product Management system
 Implemented full CRUD operations:
 Create → Add new product
@@ -218,7 +218,7 @@ Used Entity Framework for database operations
 Understood complete MVC flow (Controller → View → Model)
 
 -----
-###Day 19 – Service Layer & Repository Pattern
+### Day 19 – Service Layer & Repository Pattern
 Learned clean architecture concept
 Separated logic into layers:
 Controller → handles requests
@@ -306,3 +306,15 @@ Also checked:
 - Securing APIs using token
 - Swagger authorization setup
 - Debugging authentication errors
+
+
+--------------------------
+## Day 24 – Async & Await
+
+Learned Async and Await for non-blocking operations
+Converted synchronous database calls to asynchronous
+Used async/await with Task<T>
+Implemented ToListAsync() in Entity Framework
+Updated Repository, Service, and Controller layers
+Improved API performance and scalability
+Tested endpoints using Swagge
