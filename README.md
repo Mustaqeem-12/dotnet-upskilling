@@ -318,3 +318,12 @@ Implemented ToListAsync() in Entity Framework
 Updated Repository, Service, and Controller layers
 Improved API performance and scalability
 Tested endpoints using Swagge
+
+-------------------------
+## Day 25 – Logging
+
+Implemented built-in logging using ILogger
+Added logs in API Controller
+Logged API requests and responses
+Tested logging in Visual Studio Output window
+Understood basic concept of Serilog for file-based logging
