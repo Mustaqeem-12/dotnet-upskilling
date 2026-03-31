@@ -327,3 +327,13 @@ Added logs in API Controller
 Logged API requests and responses
 Tested logging in Visual Studio Output window
 Understood basic concept of Serilog for file-based logging
+
+-----------------
+## Day 26 – Swagger (API Documentation)
+
+Used Swagger to test APIs
+Viewed all API endpoints in Swagger UI
+Sent requests and received responses
+Used Authorize option with JWT token
+Added summary comments for API documentation
+Understood how Swagger helps developers test and understand APIs
