@@ -1,0 +1,51 @@
+@model EmployeeManagement.Models.Employee
+
+@{
+    ViewData["Title"] = "Delete Employee";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg p-4 border-danger">
+
+        <h2 class="text-danger mb-3">Delete Employee</h2>
+        <h5 class="text-muted mb-4">Are you sure you want to delete this employee?</h5>
+
+        <hr />
+
+        <dl class="row">
+
+            <dt class="col-sm-3 fw-bold">Employee ID</dt>
+            <dd class="col-sm-9">@Model.EmpId</dd>
+
+            <dt class="col-sm-3 fw-bold">Name</dt>
+            <dd class="col-sm-9">@Model.Name</dd>
+
+            <dt class="col-sm-3 fw-bold">Email</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+
+            <dt class="col-sm-3 fw-bold">Salary</dt>
+            <dd class="col-sm-9">@Model.Salary</dd>
+
+            <dt class="col-sm-3 fw-bold">Department</dt>
+            <dd class="col-sm-9">@Model.Department?.Name</dd>
+
+            <dt class="col-sm-3 fw-bold">Created At</dt>
+            <dd class="col-sm-9">@Model.CreatedAt</dd>
+
+        </dl>
+
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="EmpId" />
+
+            <div class="d-flex justify-content-between mt-4">
+                <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+
+                <button type="submit" class="btn btn-danger"
+                        onclick="return confirm('Are you sure you want to delete this employee?');">
+                    ❌ Delete
+                </button>
+            </div>
+        </form>
+
+    </div>
+</div>
