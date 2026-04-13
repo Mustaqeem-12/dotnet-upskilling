@@ -337,3 +337,100 @@ Sent requests and received responses
 Used Authorize option with JWT token
 Added summary comments for API documentation
 Understood how Swagger helps developers test and understand APIs
+
+----------------------
+# Day 27 – Employee Management (MVC)
+
+## About Project
+This is an ASP.NET Core MVC project where I built a simple Employee Management system.
+I used MVC pattern to create UI pages for managing employees.
+
+## Features
+- View all employees
+- Create new employee
+- Edit employee details
+- Delete employee
+- View employee details
+- Department dropdown selection
+
+## Technologies Used
+- ASP.NET Core MVC
+- Entity Framework Core
+- SQL Server
+- Bootstrap
+
+## What I Learned
+- How MVC works (Model, View, Controller)
+- Passing data using ViewBag
+- Using SelectList for dropdown
+- Form handling (GET/POST)
+- Basic CRUD operations
+
+## How to Run
+1. Open project in Visual Studio
+2. Check connection string in `appsettings.json`
+3. Run `Update-Database`
+4. Run the project
+
+## Notes
+This project helped me understand how frontend (views) and backend connect in MVC.
+
+---------------------------------
+
+# Day 28 – Employee Management Web API
+
+## About Project
+This project is an extension of my MVC project.  
+Here I built a Web API with JWT authentication.
+
+## Features
+- JWT Login Authentication
+- Employee CRUD API
+- SQL Server integration
+- Swagger for testing API
+- Validation
+- Global exception handling
+
+## Technologies Used
+- ASP.NET Core Web API
+- Entity Framework Core
+- SQL Server
+- JWT Authentication
+- Swagger
+
+## Authentication
+Login API:
+
+POST /api/Auth/login
+
+Example:
+{
+  "username": "Employee",
+  "password": "Emp1234"
+}
+
+After login, copy token and use in Swagger:
+Bearer {token}
+
+## API Endpoints
+- GET /api/EmployeeApi
+- POST /api/EmployeeApi
+- PUT /api/EmployeeApi/{id}
+- DELETE /api/EmployeeApi/{id}
+
+## What I Learned
+- How APIs work
+- JWT authentication concept
+- Using Swagger for testing
+- Securing endpoints with [Authorize]
+- Handling exceptions using middleware
+
+## How to Run
+1. Open project
+2. Check connection string
+3. Run `Update-Database`
+4. Run the project
+5. Open Swagger and test APIs
+
+## Notes
+This project helped me understand backend API development and authentication.
