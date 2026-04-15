@@ -110,13 +110,12 @@ Learned the basic structure of ASP.NET Core MVC.
 - Displayed a simple page using MVC routing
 
 - ---
-## Day 9 – Middleware & Request Pipeline
-
-Learned how ASP.NET Core handles requests using middleware.
-
-- Implemented a custom middleware
-- Logged request path and response in the console
-- Understood the request pipeline concept
+##  Day 9 -- Improvements After Review
+- Implemented proper runtime polymorphism using base type reference
+- Replaced public fields with properties
+- Added virtual and override methods
+- Demonstrated polymorphism using List<IEmployee>
+- Used constructors for object initialization
   
 - ---
 ## Day 10 – Routing, Controllers & Actions
